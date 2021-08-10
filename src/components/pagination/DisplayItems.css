@@ -1,0 +1,32 @@
+.item {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #006a3292;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 900px;
+    /* max-width: 900px; */
+    height: 410px;
+    margin: 20px;
+    padding: 20px;
+}
+.item section {
+    height: 400px;
+    width: 560px;
+    position: absolute;
+    margin-left: 300px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.item img {
+    width: 270px;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 10px;
+}
